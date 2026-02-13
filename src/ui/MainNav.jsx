@@ -12,6 +12,7 @@ const NavList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  list-style: none; /* removes bullets */
 `;
 
 const StyledNavLink = styled(NavLink)`
